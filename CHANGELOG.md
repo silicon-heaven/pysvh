@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `RpcAlert` as abstraction for device alerts
 - `shvtypes` module with utilites to work with RPC type hints
 - `.device:uptime` and `.device:reset`
+- Support for RPC Files (both accessing and providing)
 
 ### Changed
 - "Simple" API was renamed to SHV and thus `SimpleClient` is now `SHVClient`

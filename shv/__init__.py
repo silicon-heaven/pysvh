@@ -14,6 +14,15 @@ from .rpcerrors import (
     RpcNotImplementedError,
     RpcUserIDRequiredError,
 )
+from .rpcfile import (
+    FileProvider,
+    FileProviderAppend,
+    FileProviderFixedSize,
+    FileProviderRO,
+    FileProviderRW,
+    RpcFile,
+    RpcFileStat,
+)
 from .rpclogin import RpcLogin, RpcLoginType
 from .rpcmessage import RpcMessage
 from .rpcmethod import RpcMethodAccess, RpcMethodDesc, RpcMethodFlags
@@ -89,6 +98,11 @@ __all__ = [
     "Cpon",
     "CponReader",
     "CponWriter",
+    "FileProvider",
+    "FileProviderAppend",
+    "FileProviderFixedSize",
+    "FileProviderRO",
+    "FileProviderRW",
     "RpcAlert",
     "RpcClient",
     "RpcClientPipe",
@@ -98,6 +112,8 @@ __all__ = [
     "RpcClientWebSockets",
     "RpcError",
     "RpcErrorCode",
+    "RpcFile",
+    "RpcFileStat",
     "RpcInvalidParamError",
     "RpcLogin",
     "RpcLoginRequiredError",

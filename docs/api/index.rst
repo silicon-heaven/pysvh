@@ -11,3 +11,4 @@ API reference
    rpcurl
    rpcri
    rpctypes
+   rpcfile

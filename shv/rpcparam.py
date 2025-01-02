@@ -151,7 +151,7 @@ def shvargt(
     value: SHVType,
     index: int,
     tp: type[SHVT],
-    default: SHVType | NoDefaultType = NO_DEFAULT,
+    default: SHVT | NoDefaultType = NO_DEFAULT,
 ) -> SHVT:
     """Variant of :func:`shvarg` that also checks for type.
 
